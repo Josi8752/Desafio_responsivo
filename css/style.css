@@ -1,0 +1,70 @@
+/*Auxiliaries*/
+
+:root {
+  --color-greenaqua: #38af90;
+  --color-pink: #dd7e92;
+  --color-white: #f0f0f0;
+  --color-grey: #797979;
+  --color-wheitemais: #ffffff;
+}
+
+
+.title-levelone {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  color: var(--color-wheitemais);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/*header*/
+
+header {
+  background: var(--color-greenaqua);
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: var(--color-wheitemais);
+margin: 0 10px 0 0;
+
+}
+.DS-mabol {
+  width: 131px;
+  height: 27px;
+ margin: 32px 10px 31px 179px;
+  color: var(--color-wheitemais);
+}
+.list {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px;
+    
+    display: flex;
+    list-style-type: none;
+    color: var(--color-wheitemais);
+  }
+  
+.avatar {
+  width: 62px;
+  height: 62px;
+margin: 0 auto;
+  border-radius: 75px;
+}
+.nav-container {
+  width: 320px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  
