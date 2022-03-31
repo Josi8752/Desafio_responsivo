@@ -64,21 +64,16 @@ border-top-right-radius: 8px;
 
 .rectangle-games-white{
 width: 300px;
-height: 326px;
-
 box-shadow: 0px 4px 20px;
-margin-top: -100px;
-margin-left: 10px;
-margin-bottom: 130px;
+margin: 0 auto;
+margin-bottom: 60px;
 background: var(--color-wheitemais);
 border-radius: 8px;
 }
 
 .rectangle-gray{
-  width: 320px;
-  height: 1176px;
-  margin: 130px 0 0 490px;
-  
+  margin: 0 auto;
+  padding-bottom: 30px;
   background: var(--color-white);
   }
 .rectangle-plataforma{
@@ -128,7 +123,7 @@ font-size: 36px;
 display: flex;
 align-items: center;
 text-align: center;
-margin: 30px 0 124px 120px;
+margin: 0 auto;
 color: var(--color-greenaqua);
 }
 
@@ -141,26 +136,25 @@ color: var(--color-greenaqua);
 
 header {
   background: var(--color-greenaqua);
-  display: flex;
+ 
   align-items: center;
-  justify-content: space-between;
+  
 }
 header a {
   color: var(--color-wheitemais);
   margin: 0 10px 0 0;
 }
-.title-header {
-  font-size: 18px;
+.container-header{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-
-  color: var(--color-wheitemais);
+  max-width:1000px;
+  margin: 0 auto;
 }
+
 .DS-mabol {
-  width: 131px;
-  height: 27px;
-  margin: 32px 10px 31px 179px;
   color: var(--color-wheitemais);
+  
 }
 .list {
   font-family: "Poppins";
@@ -174,41 +168,34 @@ header a {
   color: var(--color-wheitemais);
 }
 
-.avatar {
-  width: 62px;
-  height: 62px;
-  margin: 0 auto;
-  border-radius: 75px;
-}
-.nav-container {
-  width: 320px;
-  height: 90px;
+
+.nav-container ul {
   display: flex;
   align-items: center;
 }
 
 /*main*/
-
+main{
+  max-width: 1200px;
+  margin:0 auto;
+} 
 .titlemain {
-  width: 202px;
-  height: 36px;
+  margin-top: 20px;
   font-size: 24px;
-  margin: 40px 60px 100px 550px;
   text-align: center;
-
   color: var(--color-gray);
 }
 .rectangle-1 {
   width: 300px;
   height: 493px;
-  margin: -94px 0 0 500px;
+  margin: 0 auto;
   background: var(--color-white);
   border-radius: 8px;
 }
 .rectangle-2{
   width: 300px;
   height: 540px;
-  margin: 28px 0 0 500px;
+  margin: 0 auto;
   background: var(--color-white);
   
   border-radius: 8px;}
@@ -244,45 +231,36 @@ header a {
   color: var(--color-gray);
 }
 .button-load{
-  width: 244px;
+ width: 244px;
 height: 67px;
-display: flex;
-align-items: center;
-text-align: center;
-margin-left: 30px;
-margin-top: 150px;
+margin: 0 auto;
 background: var(--color-pink);
 border-radius: 8px;
+text-align: center;
 }
-.letter{
-width: 135px;
-height: 27px;
-font-size: 18px;
-margin-left: 40px;
-color: var(--color-wheitemais);
+.button-load .letter{
+  justify-content: center;
+  padding-top:14px;
+  font-size: 18px;
+  color: var(--color-wheitemais);
 }
+
 
 /*section - 2 */
 
 
 .title-games{
-  width: 75px;
-  height: 36px;
+ 
   font-size: 24px;
   text-align: center;
-  margin: 0 28px 160px 123px ;
-padding-top: 30px;
+
   color: var(--color-greenaqua)
 
 }
 /*section-inscrição*/
 .inscrição{
- 
-width: 231px;
-height: 36px;
 font-size: 24px;
-margin: 0 0 40px 540px ;
-padding-top: 30px;
+margin-top: 10px;
 text-align: center;
 color:var(--color-gray);
 }
@@ -306,4 +284,10 @@ height: 24px;
   width: 89px;
   height: 24px;
  
+}
+@media(max-width:810px){
+ .container-header{
+   display: flex;
+   flex-direction: column;
+  }
 }
