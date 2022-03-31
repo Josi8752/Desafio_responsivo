@@ -21,7 +21,7 @@
 <ul class="list">
     <li><a href="#News">Notícias</a></li>
     <li><a href="#Jogos">Jogos</a></li>
-    <li><a href="#sign up">Inscreva-se</a></li>
+    <li><a href="#Sign-up">Inscreva-se</a></li>
 </ul>
 <div class="avatar">
     <img src="img/Profile Image.svg" alt="Avatar">
@@ -83,41 +83,24 @@
     <h1  class="title-evaluation fonte">9.7</h1>
         </div>
 </section>
-    <section id="Sign up">
+    <section id="Sign-up">
             <h1  class="inscrição fonte">Faça sua inscrição</h1>
       
-        <form action="DSPlayGames"  class="rectangle-gray">
-            <div>
-                <input type="text" placeholder="Nome completo">
+        <form action="DSPlayGames"  class="rectangle-gray ">
+            <div >
+                <div >
+                    <input type="text"  class="rectangle-plataforma" placeholder="     Nome completo">
+                    <input type="text"  class="rectangle-plataforma" placeholder="     Email">
+                </div>
+                
             </div>
-        <div>
-            <input type="Email" placeholder="Email">
-        </div>
+       
         <div>
             <div>
-                <label for="ctrl-level">Qual sua plataforma preferida?</label>
-                <div id="ctrl-level">
+                <label for="ctrl-level" class="plataforma-preferida fonte-plataforma">Qual sua plataforma preferida?</label>
+                <div id="ctrl-level" class="fonte-plataforma">
                   <input type="radio" name="level" id="ctrl-level-1">  
-                  <label for="ctrl-level" name="level" >Pc</label>
-            </div>
-           
-            <div>
-                <input type="radio" name="level" id="ctrl-level-2">  
-             <label for="ctrl-level" name="level" >Xbox</label>
-            </div>
-             <div></div>
-             <input type="radio" name="level" id="ctrl-level-3">  
-            <label for="ctrl-level" name="level">Playstation</label>
-           </div>
-        </div>
-        <div>
-            <label for="ctrl-receive"></label>
-            <input id="ctrl-receive" type="checkbox">
-            <label for="ctrl-receive">Deseja receber novidades.</label>
-        </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="submit" value="Limpar">
+                  <label for="ctrl-level" name="level" class="radio-pc"> Pc</label>
             </div>
         </form> 
 </section>
