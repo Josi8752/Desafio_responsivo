@@ -123,10 +123,10 @@ hr {
   color: var(--color-greenaqua);
 }
 
-.style-radio{
+.style-radio-button{
   width: 23px;
   height: 23px;
-  
+  margin-top: 22px;
   background: #FFFFFF;
   border: 1px solid #999999;
   box-sizing: border-box;
@@ -229,14 +229,15 @@ header a {
 .date {
   width: 274.85px;
   height: 15px;
-  margin: -10px 0 0 10px;
+  margin: -10px 0 12px 10px;
 
   color: var(--color-greenaqua);
 }
 .news {
   width: 276px;
   height: 329px;
-  padding: 10px;
+  margin: 12px 12px 33px 12px;
+ 
   color: var(--color-gray);
 }
 .button-load {
@@ -254,7 +255,7 @@ header a {
   width: 135px;
   height: 27px;
   font-size: 18px;
-  margin-left: 40px;
+  margin-left: 60px;
   color: var(--color-wheitemais);
 }
 
@@ -290,14 +291,15 @@ margin-left: 10px;
 .plataforma-preferida {
   width: 253px;
   height: 24px;
-  margin: 20px 8px 15px 39px;
+margin-top: 12px;
+
 
 }
 
 .radio-pc {
   width: 22px;
   height: 24px;
-  margin-left: 5px;
+ margin: 25px 30px 0 10px;
 }
 
 .radio-xbox {
