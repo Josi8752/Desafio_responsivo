@@ -9,7 +9,6 @@
   --color-bodyy: #e5e5e5;
   --color-button-radio: #999999;
   --color-footer: #383838;
-  
 }
 
 .fonte {
@@ -78,8 +77,9 @@ hr {
   background: var(--color-wheitemais);
   border: 1px solid var(--color-gray);
   box-sizing: border-box;
-  margin: 30px 0 0 10px;
-  border-radius: 4px;
+ margin-left: 10px;
+  margin: 30px 0 0 15px;
+  border-radius: 8px;
 }
 
 .title-img-games {
@@ -276,123 +276,229 @@ header a {
   color: var(--color-gray);
 }
 
-.qual{
+.qual {
   width: 253px;
-height: 24px;
-margin: 10px 0 0 10px;
-display: flex;
-align-items: center;
+  height: 24px;
+  margin: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
 
-color: var(--color-gray);
+  color: var(--color-gray);
 }
 
-
-.radio{
+.radio {
   width: 23px;
   height: 23px;
-  appearance: none;
- align-items: center;
- display: flex;
- margin-top: 10px;
- margin-left: 10px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
   background: var(--color-wheitemais);
   border-radius: 50%;
   border: 1px solid var(--color-button-radio);
   box-sizing: border-box;
 }
 
-
-.pc{
+.pc {
   width: 22px;
   height: 24px;
-  margin-left: 30px;
+  margin-top: -22px;
+  margin-left: 38px;
   display: flex;
   align-items: center;
   color: var(--color-gray);
 }
-.xbox{
+.xbox {
   width: 39px;
   height: 24px;
-  margin-left: 30px;
+  margin-left: 17px;
   display: flex;
   align-items: center;
   color: var(--color-gray);
 }
-.play{
+.play {
   width: 89px;
   height: 24px;
-  margin-left: 30px;
+  margin-top: -22px;
+  margin-left: 38px;
   display: flex;
   align-items: center;
   color: var(--color-gray);
 }
-.check{
+.check {
   width: 23px;
   height: 23px;
- margin-top: 30px;
- appearance: none;
- margin-left: 10px;
+  margin-top: 30px;
+
+  margin-left: 10px;
   background: var(--color-wheitemais);
   border: 1px solid var(--color-button-radio);
-  
 }
-.deseja{
+.deseja {
   width: 212px;
   height: 24px;
-  margin-top: -24px;
-  margin-left: 30px;
+  margin-top: -30px;
+  margin-left: 45px;
   display: flex;
   align-items: center;
   color: var(--color-gray);
 }
+.enviar-button{
+  width: 244px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  background: var(--color-pink);
+  border-radius: 8px;
+}
+.limpar-button{
+  width: 244px;
+  height: 67px;
+  display: flex;
+  appearance: none;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: 2px solid var(--color-pink);
+  box-sizing: border-box;
+  background: var(--color-wheitemais) ;
+  border-radius: 8px;
+}
+.limpar{
+  width: 66px;
+  height: 27px;
+ 
+  font-size: 18px;
+  
+  margin-left: 93px;
+  
+  color: var(--color-pink);
+}
+.letter-enviar{
+  width: 135px;
+  height: 27px;
+  font-size: 18px;
+  
+  margin-left: 93px;
+  color: var(--color-wheitemais);
+}
+
 /*footer*/
 
 footer {
   width: 305px;
-height: 302px;
-align-items: center;
-justify-content: space-between;
-margin-left: 5px;
-background: var(--color-footer);
-
-}
-
-.footer-aligin{
+  height: 302px;
+  margin-top: 35px;
   align-items: center;
+  justify-content: space-between;
+  margin-left: 7px;
+  background: var(--color-footer);
+}
 
+.footer-aligin {
+  align-items: center;
 }
-footer a{
- margin-bottom: 20px;
-color:var(--color-wheitemais);
+footer a {
+  margin-bottom: 20px;
+  color: var(--color-wheitemais);
 }
-.ds-insta{
+.ds-insta {
   width: 111px;
   height: 29.84px;
   padding: 20px;
   margin-left: 78px;
 }
-.ds-twitter{
+.ds-twitter {
   width: 104px;
   height: 29.84px;
   margin-top: -17px;
   margin-left: 103px;
 }
-.ds-todos{
+.ds-todos {
   width: 250px;
-height: 50px;
-margin-left: 42px;
-margin-top:50px;
-align-items: center;
+  height: 50px;
+  margin-left: 42px;
+  margin-top: 50px;
+  align-items: center;
 }
-.politicas{
+.politicas {
   width: 161px;
   height: 29.84px;
   margin-top: 45px;
   margin-left: 70px;
 }
-.termos{
+.termos {
   width: 104px;
   height: 29.84px;
   margin-top: -17px;
   margin-left: 85px;
+}
+
+.footer-aligin {
+  align-items: center;
+}
+footer a {
+  margin-bottom: 20px;
+  color: var(--color-wheitemais);
+}
+.ds-insta {
+  width: 111px;
+  height: 29.84px;
+  padding: 20px;
+  margin-left: 78px;
+}
+.ds-twitter {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 103px;
+}
+.ds-todos {
+  width: 250px;
+  height: 50px;
+  margin-left: 42px;
+  margin-top: 50px;
+  align-items: center;
+}
+.politicas {
+  width: 161px;
+  height: 29.84px;
+  margin-top: 45px;
+  margin-left: 70px;
+}
+.termos {
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 85px;
+}
+@media (max-width: 1200px) {
+  .list {
+    
+  
+    display: flex;
+    
+  }
+ 
+  .rectangle-1 {
+    width: 1200px;
+    height: 247px;
+    
+    
+  }
+  
+  .rectangle-2 {
+    width: 1200px;
+    height: 247px;
+   
+  }
+  
+  .rectangle-gray {
+    width: 1200px;
+    height: 559px;
+  }
 }
