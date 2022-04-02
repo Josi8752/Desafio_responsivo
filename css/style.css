@@ -7,7 +7,9 @@
   --color-gray: #797979;
   --color-wheitemais: #ffffff;
   --color-bodyy: #e5e5e5;
-  --color-button-radio:#999999
+  --color-button-radio: #999999;
+  --color-footer: #383838;
+  
 }
 
 .fonte {
@@ -22,7 +24,6 @@
   font-size: 10px;
 }
 
- 
 a,
 a:hover {
   text-decoration: none;
@@ -33,8 +34,8 @@ hr {
   width: 275.76px;
   height: 3px;
   margin-top: -7px;
-  border: 1px;
-  color: var(--color-greenaqua);
+  margin-left: 10px;
+  border: 1px solid var(--color-greenaqua);
 }
 
 .link-to-read {
@@ -116,8 +117,6 @@ hr {
   color: var(--color-greenaqua);
 }
 
-
-
 header {
   background: var(--color-greenaqua);
   display: flex;
@@ -179,20 +178,23 @@ header a {
 }
 .rectangle-1 {
   width: 300px;
-  height: 493px;
-  margin: -94px 0 0 12px;
+  height: 422px;
+  margin: -94px 0 0 10px;
+  align-items: center;
+  text-align: left;
   background: var(--color-white);
   border-radius: 8px;
 }
+
 .rectangle-2 {
   width: 300px;
-  height: 540px;
-  margin: 20px 0 0 12px;
+  height: 425px;
+  margin: 20px 0 20px 10px;
+  align-items: center;
+  text-align: left;
   background: var(--color-white);
-
   border-radius: 8px;
 }
-
 .title-news {
   width: 275px;
   height: 24px;
@@ -220,8 +222,9 @@ header a {
 .news {
   width: 276px;
   height: 329px;
-  margin: 12px 12px 33px 12px;
- 
+  margin: 12px 12px 33px 10px;
+  align-items: center;
+  text-align: left;
   color: var(--color-gray);
 }
 .button-load {
@@ -231,7 +234,7 @@ header a {
   align-items: center;
   text-align: center;
   margin-left: 30px;
-  margin-top: 150px;
+  margin-top: -20px;
   background: var(--color-pink);
   border-radius: 8px;
 }
@@ -258,7 +261,7 @@ header a {
 .rectangle-placeholder {
   width: 300px;
   height: 603px;
-margin-left: 10px;
+  margin-left: 10px;
   background: var(--color-white);
   border-radius: 8px;
 }
@@ -273,28 +276,54 @@ margin-left: 10px;
   color: var(--color-gray);
 }
 
-.fonte-plataforma {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  margin: 12px 0 0 10px ;
-  display: flex;
+
+
+footer {
+  width: 305px;
+height: 302px;
+align-items: center;
+justify-content: space-between;
+margin-left: 5px;
+background: var(--color-footer);
+
+}
+
+.footer-aligin{
   align-items: center;
-  color: var(--color-gray);
-}
-.style-radio-button{
-  width: 23px;
-height: 23px;
-margin: 10px 0 5px 15px;
-background:var(--color-wheitemais);
-border: 1px solid var(--color-button-radio);
-box-sizing: border-box;
 
 }
-
-.letter-pc{
-  width: 22px;
-height: 24px;
-
+footer a{
+ margin-bottom: 20px;
+color:var(--color-wheitemais);
+}
+.ds-insta{
+  width: 111px;
+  height: 29.84px;
+  padding: 20px;
+  margin-left: 78px;
+}
+.ds-twitter{
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 103px;
+}
+.ds-todos{
+  width: 250px;
+height: 50px;
+margin-left: 42px;
+margin-top:50px;
+align-items: center;
+}
+.politicas{
+  width: 161px;
+  height: 29.84px;
+  margin-top: 45px;
+  margin-left: 70px;
+}
+.termos{
+  width: 104px;
+  height: 29.84px;
+  margin-top: -17px;
+  margin-left: 85px;
 }
