@@ -479,7 +479,6 @@ footer a {
 @media (max-width: 1200px) {
   .list {
     
-  
     display: flex;
     
   }
@@ -488,14 +487,9 @@ footer a {
     width: 1200px;
     height: 247px;
     
-    
   }
   
-  .rectangle-2 {
-    width: 1200px;
-    height: 247px;
-   
-  }
+  
   
   .rectangle-gray {
     width: 1200px;
