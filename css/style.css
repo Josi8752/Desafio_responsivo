@@ -276,7 +276,76 @@ header a {
   color: var(--color-gray);
 }
 
+.qual{
+  width: 253px;
+height: 24px;
+margin: 10px 0 0 10px;
+display: flex;
+align-items: center;
 
+color: var(--color-gray);
+}
+
+
+.radio{
+  width: 23px;
+  height: 23px;
+  appearance: none;
+ align-items: center;
+ display: flex;
+ margin-top: 10px;
+ margin-left: 10px;
+  background: var(--color-wheitemais);
+  border-radius: 50%;
+  border: 1px solid var(--color-button-radio);
+  box-sizing: border-box;
+}
+
+
+.pc{
+  width: 22px;
+  height: 24px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.xbox{
+  width: 39px;
+  height: 24px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.play{
+  width: 89px;
+  height: 24px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+.check{
+  width: 23px;
+  height: 23px;
+ margin-top: 30px;
+ appearance: none;
+ margin-left: 10px;
+  background: var(--color-wheitemais);
+  border: 1px solid var(--color-button-radio);
+  
+}
+.deseja{
+  width: 212px;
+  height: 24px;
+  margin-top: -24px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+/*footer*/
 
 footer {
   width: 305px;
