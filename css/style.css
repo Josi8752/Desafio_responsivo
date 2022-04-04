@@ -484,6 +484,14 @@ footer a {
 }
 
 @media (min-width: 576px) {
+
+  .DS-mabol {
+    width: 174px;
+    height: 36px;
+    font-size: 24px;
+    margin: 27px 10px 27px 105px;
+    color: var(--color-wheitemais);
+  }
   .fonte-list {
     font-family: "Poppins";
     font-style: normal;
