@@ -58,6 +58,8 @@ hr {
 .rectangle-games-white {
   width: 300px;
   height: 326px;
+  margin-top: -85px;
+  margin-bottom: 116px;
   box-shadow: 0px 4px 20px;
   background: var(--color-wheitemais);
   border-radius: 8px;
@@ -420,9 +422,14 @@ footer a {
 .ds-todos {
   width: 250px;
   height: 50px;
-  margin-left: 42px;
+  margin-left: 20px;
   margin-top: 50px;
   align-items: center;
+}
+.sep-footer{
+ margin-top: -30px;
+  margin-left: 45px;
+  color: var(--color-wheitemais);
 }
 .politicas {
   width: 161px;
@@ -475,7 +482,7 @@ footer a {
   margin-top: -17px;
   margin-left: 85px;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .fonte-list {
     font-family: "Poppins";
     font-style: normal;
@@ -518,12 +525,12 @@ footer a {
     margin-left: 20px;
   }
   .rectangle-1 {
-    margin-left: 150px;
+    margin-left: 95px;
     width: 990px;
     height: 247px;
   }
   .rectangle-2 {
-    margin-left: 150px;
+    margin-left: 95px;
     width: 990px;
     height: 247px;
   }
@@ -531,7 +538,7 @@ footer a {
     width: 302px;
     height: 54px;
     font-size: 36px;
-    margin: 40px 60px 100px 480px;
+    margin: 40px 60px 100px 460px;
   }
   .title-div-news {
     width: 907px;
@@ -555,7 +562,7 @@ footer a {
     margin-left: 350px;
   }
   .rectangle-gray {
-    width: 1340px;
+    width: 1200px;
     height: 559px;
     
   }
@@ -575,18 +582,18 @@ footer a {
     width: 112px;
     height: 54px;
     font-size: 36px;
-    margin-left: 530px;
+    margin-left: 500px;
   }
   .inscrição {
     width: 347px;
     height: 54px;
-    margin: 10px 0 40px 450px;
+    margin: 10px 0 40px 420px;
     font-size: 36px;
   }
   .rectangle-plataforma {
     width: 790px;
     height: 522px;
-    margin-left: 290px;
+    margin-left: 200px;
   }
   .rectangle-placeholder {
     width: 642px;
@@ -635,7 +642,7 @@ footer a {
     color: var(--color-pink);
   }
   footer {
-    width: 1340px;
+    width: 1200px;
     height: 190px;
     display: flex;
     
@@ -643,31 +650,32 @@ footer a {
   .ds-insta {
     width: 111px;
     height: 21px;
-    padding: 80px;
+    padding:  90px;
     margin-left: 78px;
   }
   .ds-twitter {
     width: 104px;
     height: 21px;
-    margin-top: -80px;
-    margin-left: 162px;
+    margin-top: -90px;
+    margin-left: 168px;
   }
   .ds-todos {
     width: 326px;
     height: 21px;
     margin-left: 390px;
-    margin-top: -45px;
-    display: flex;
-    align-items: center;
+    margin-top: -60px;
+    color: var(--color-wheitemais);
+    
   }
-.sep-footer{
-  align-items: center;
- margin-left: 3px;
-}
+  .sep-footer{
+    margin-top: -30px;
+     margin-left: 450px;
+    
+   }
   .politicas {
     width: 161px;
     height: 21px;
-    margin-top: -45px;
+    margin-top: -60px;
     margin-left: 900px;
   }
   .termos {
