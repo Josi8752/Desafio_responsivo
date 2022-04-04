@@ -116,6 +116,7 @@ hr {
   margin: 20px 0 124px 115px;
   color: var(--color-greenaqua);
 }
+/*Hewder*/
 
 header {
   background: var(--color-greenaqua);
@@ -486,12 +487,12 @@ font-size: 14px;
 color: var(--color-wheitemais);
 }
 
-
   .list {
    margin: 8px 0 0 0;
     display: flex;
    
   }
+
   .news-list{
     width: 57px;
     height: 21px;
