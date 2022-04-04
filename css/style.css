@@ -482,6 +482,7 @@ footer a {
   margin-top: -17px;
   margin-left: 85px;
 }
+
 @media (min-width: 576px) {
   .fonte-list {
     font-family: "Poppins";
@@ -555,7 +556,8 @@ footer a {
     font-size: 10px;
   }
   hr {
-    width: 910px;
+   margin-top: 1px;
+    width:910px;
   }
   .button-load {
     margin-top: 100px;
@@ -668,8 +670,8 @@ footer a {
     
   }
   .sep-footer{
-    margin-top: -30px;
-     margin-left: 450px;
+    margin-top: -43px;
+     margin-left: 640px;
     
    }
   .politicas {
