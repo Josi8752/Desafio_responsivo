@@ -55,11 +55,7 @@ hr {
 .rectangle-games-white {
   width: 300px;
   height: 326px;
-
   box-shadow: 0px 4px 20px;
-  margin-top: -100px;
-  margin-left: 5px;
-  margin-bottom: 120px;
   background: var(--color-wheitemais);
   border-radius: 8px;
 }
@@ -116,7 +112,7 @@ hr {
   margin: 20px 0 124px 115px;
   color: var(--color-greenaqua);
 }
-/*Hewder*/
+/*Header*/
 
 header {
   background: var(--color-greenaqua);
@@ -209,7 +205,7 @@ header a {
   font-size: 12px;
   margin: 4px 0 0 10px;
 
-  color: var(--color-grey);
+  color: var(--color-gray);
 }
 
 .date {
@@ -476,56 +472,109 @@ footer a {
   margin-top: -17px;
   margin-left: 85px;
 }
-@media (min-width: 1115px) {
-
-.fonte-list{
+@media (min-width: 768px) {
  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-color: var(--color-wheitemais);
-}
+  .fonte-list {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-wheitemais);
+  }
 
   .list {
-   margin: 8px 0 0 0;
+    margin: 8px 0 0 0;
     display: flex;
-   
   }
 
-  .news-list{
+  .news-list {
     width: 57px;
     height: 21px;
-   
+
     display: flex;
     align-items: center;
-    
   }
-  .games-list{
+  .games-list {
     width: 43px;
-height: 21px;
+    height: 21px;
 
-display: flex;
-
+    display: flex;
   }
-  .sign-up-list{
-    
+  .sign-up-list {
     width: 85px;
     height: 21px;
     display: flex;
-    align-items: center
-
+    align-items: center;
   }
-  .sep{
+  .sep {
     width: 85px;
     height: 21px;
     margin-left: 1px;
   }
-  
+
   .avatar {
-    
     margin-left: 20px;
+  }
+  .rectangle-1 {
+    margin-left: 100px;
+    width: 990px;
+    height: 247px;
+  }
+  .rectangle-2 {
+    margin-left: 100px;
+    width: 990px;
+    height: 247px;
+  }
+  .titlemain {
+    width: 302px;
+    height: 54px;
+    font-size: 36px;
+    margin: 40px 60px 100px 450px;
+  }
+  .title-div-news {
+    width: 907px;
+    height: 24px;
+    font-size: 16px;
+  }
+  .title-news {
+    width: 316px;
+    height: 36px;
+  }
+  .news {
+    width: 909px;
+    height: 92px;
+    font-size: 10px;
+  }
+  hr {
+    width: 910px;
+  }
+  .button-load {
+    margin-top: 100px;
+    margin-left: 350px;
+  }
+  .rectangle-gray {
+    
+    width: 1200px;
+    height: 559px;
    
   }
+  
+  .rectangle-games-white1 {
+    margin: -70px 0 0 120px;
+  
+  }
+  
+  .rectangle-games-white2{
+    margin: -325px 0 0 450px;
+  }
+  .rectangle-games-white3{
+    margin: -327px 0 0 780px;
+  }
 
+  .title-games {
+    width: 112px;
+    height: 54px;
+    font-size: 36px;
+    margin-left: 500px;
+  }
 }
